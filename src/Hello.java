@@ -15,7 +15,7 @@ public class Hello {
 
     public static void main (String[]args){
         String name = parser(args);
-        System.out.println("Hello " + name + "I am very exited to work at " + name);
+        System.out.printf( "Hello %s %n I am very exited to work at %s !", name ,name);
     }
 
 }
